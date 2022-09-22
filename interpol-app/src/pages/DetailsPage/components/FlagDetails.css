@@ -1,0 +1,19 @@
+.labelContainer {
+  padding: 5px;
+  background-color: #e9ecef;
+  border-radius: 10px;
+  margin: 15px 5px;
+  width: 25rem;
+  height: 3rem;
+  box-shadow: 3px 3px 3px #999999;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.flagIcon {
+  height: 2.2rem;
+  margin-left: 2rem;
+  border: 0.5px solid black;
+  border-radius: 5px;
+}

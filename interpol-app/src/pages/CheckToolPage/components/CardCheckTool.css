@@ -1,0 +1,117 @@
+.cardContainer {
+  border: 2px solid #343a40;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #888888;
+  margin-bottom: 2rem;
+  display: flex;
+  position: relative;
+}
+
+.cardWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.imgWrapper {
+  position: relative;
+  background-color: #999;
+  width: 15rem;
+  height: 20rem;
+  border-right: 2px solid #343a40;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.noticeClr {
+  background-color: #343a40;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 12.5%;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.noticeTxt {
+  color: white;
+  font-weight: bold;
+}
+
+.imgCard {
+  width: 14.9rem;
+  height: 20rem;
+  object-fit: fill;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardBody {
+  margin: 20px 40px;
+}
+
+.cardNameDiv {
+  margin-bottom: 20px;
+  width: 24rem;
+  display: flex;
+  align-items: center;
+}
+
+.cardName {
+  text-align: justify;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.listWrapper {
+  list-style: none;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+}
+
+.listText {
+  color: #343a40;
+  border-bottom: 2px solid #343a40;
+  font-size: 16px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  width: 24rem;
+  font-weight: bold;
+}
+
+.cardBtnDiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.cardButton {
+  background-color: #343a40;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid #343a40;
+  font-weight: bold;
+  padding: 10px;
+  box-shadow: 2px 2px 2px #888888;
+  margin-left: 20rem;
+  margin-bottom: 10px;
+}
+
+.cardButton:hover {
+  background-color: black;
+  color: wheat;
+}
