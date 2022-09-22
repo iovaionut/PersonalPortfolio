@@ -1,0 +1,22 @@
+.container{
+    padding: 50px;
+    display: flex;
+}
+
+.item{
+    flex: 1;
+}
+
+.table{
+    width: 100%;
+    border-spacing: 20px;
+    text-align: left;
+}
+
+.button{
+    background-color: crimson;
+    border: none;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
